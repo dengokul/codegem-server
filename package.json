@@ -1,0 +1,33 @@
+{
+  "name": "Codegem-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -- src/server.js",
+    "dev": "nodemon --watch src --exec node -- src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/schema": "^8.3.6",
+    "apollo-server": "^3.6.7",
+    "apollo-server-errors": "^3.3.1",
+    "apollo-server-express": "^3.6.7",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "graphql": "^16.3.0",
+    "graphql-type-json": "^0.3.2",
+    "graphql-upload": "^13.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.2",
+    "nodemon": "^2.0.15",
+    "uuid": "^8.3.2",
+    "winston": "^3.7.1",
+    "mysql2": "^2.3.3"
+  }
+}
